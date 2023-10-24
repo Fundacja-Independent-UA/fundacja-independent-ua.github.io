@@ -1,0 +1,41 @@
+<footer class="container-header">
+  <div class="footer__content">
+    <div class="logo">
+      <a href="/">
+        <img class="logo_full" src="/assets/images/logo.svg" alt="">
+        <img class="logo_flag" src="/assets/images/flag.svg" alt="">
+      </a>
+    </div>
+    <div class="menu">
+      <div class="menu-btns">
+        <a href="{{ site.baseurl }}/privacy-policy/" class="menu-btn">{% t footer.privacy %}</a>
+        <a href="{{ site.baseurl }}/cookie-policy/" class="menu-btn">{% t footer.cookie %}</a>
+        <a href="{{ site.baseurl }}/refund-policy/" class="menu-btn">{% t footer.refund %}</a>
+        <a href="{{ site.baseurl }}/aml-policy/" class="menu-btn">{% t footer.aml %}</a>
+        <a href="https://www.instagram.com/events_for_ukraine/" class="menu-btn">{% t footer.events %}</a>
+      </div>
+      {% if site.lang == "en" %}
+      <a href="/pl/" class="menu-btn lang-btn" style="text-transform: uppercase">PL</a>
+      {% elsif site.lang == "pl" %}
+      <a href="/" class="menu-btn lang-btn" style="text-transform: uppercase">EN</a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="footer__mobile" style="display: none;">
+    <div class="footer-column">
+      <img src="/assets/images/flag.svg" class="flag">
+      <a href="{{ site.baseurl }}/privacy-policy/" class="menu-btn">{% t footer.privacy %}</a>
+      <a href="{{ site.baseurl }}/aml-policy/" class="menu-btn">{% t footer.aml %}</a>
+      <a href="https://www.instagram.com/events_for_ukraine/" class="menu-btn">{% t footer.events %}</a>
+    </div>
+    <div class="footer-column">
+      {% if site.lang == "en" %}
+      <a href="/pl/" class="menu-btn lang-btn" style="text-transform: uppercase">PL</a>
+      {% elsif site.lang == "pl" %}
+      <a href="/" class="menu-btn lang-btn" style="text-transform: uppercase">EN</a>
+      {% endif %}
+      <a href="{{ site.baseurl }}/cookie-policy/" class="menu-btn">{% t footer.cookie %}</a>
+      <a href="{{ site.baseurl }}/refund-policy/" class="menu-btn">{% t footer.refund %}</a>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+{% include head.html %}
+<body>
+<div id="wrapper">
+  <div id="content">
+    {% include monobank.html %}
+
+    {% include header.html %}
+
+    <section class="policy-section container-header">
+      <div class="policy-everything">
+        <div class="policy-content">
+          {% translate_file refund-policy.md %}
+        </div>
+      </div>
+    </section>
+  </div>
+  {% include footer.html %}
+</div>
+</body>
+</html>

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+{% include head.html %}
+<body>
+<div id="wrapper">
+  <div id="content">
+    {% include monobank.html %}
+    <header class="container-header">
+      <div class="logo">
+        <a href="/">
+          <img src="/assets/images/logo.svg" alt="">
+        </a>
+      </div>
+      <div class="menu">
+        <div class="menu-btns">
+          <a href="#events" class="menu-btn">{% t menu.how-to-help %}</a>
+          <a href="#founders" class="menu-btn">{% t menu.about %}</a>
+        </div>
+        {% include lang-switcher.html %}
+      </div>
+    </header>
+    <section class="title-section">
+      <div class="title__bg">
+        <div class="title__bg__content">
+          <p class="h1-upper">{% t header.line1 %}</p>
+          <h1 class="title_{{ site.lang }}">{% t header.line2 %}</h1>
+        </div>
+      </div>
+      <div class="title__donate">
+        <div class="title__donate__content">
+          <div class="about">
+            <p>{% t header.text %}</p>
+            <a href="#founders">{% t header.legal %} →</a>
+          </div>
+          <a href="https://donate.stripe.com/6oE8wW5uJ4U62nC7st" class="donate-btn btn-260" target="_blank">
+            {% t header.donate %}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="wound-section container-header">
+      <div class="wound__title">
+        <h2>{% t map.text %}</h2>
+      </div>
+      <div class="wound__capitals">
+
+        <div class="capital">
+          <div class="flight">
+            <img src="/assets/images/plane.svg" width="12" height="12"
+                 alt="">
+            <p class="time">3 {% t map.h %} 25 {% t map.min %}</p>
+          </div>
+          <div class="capital__name">{% t map.paris %}</div>
+        </div>
+        <div class="arrow-left">
+          <img src="/assets/images/arrow-left.svg">
+        </div>
+        <div class="capital">
+          <div class="flight">
+            <img src="/assets/images/plane.svg" width="12" height="12"
+                 alt="">
+            <p class="time">3 {% t map.h %} 20 {% t map.min %}</p>
+          </div>
+          <div class="capital__name">{% t map.london %}</div>
+        </div>
+        <div class="arrow-left">
+          <img src="/assets/images/arrow-left.svg">
+        </div>
+        <div class="capital">
+          <div class="flight">
+            <img src="/assets/images/plane.svg" width="12" height="12"
+                 alt="">
+            <p class="time">1 {% t map.h %} 50 {% t map.min %}</p>
+          </div>
+          <div class="capital__name">{% t map.berlin %}</div>
+        </div>
+        <div class="arrow-left">
+          <img src="/assets/images/arrow-left.svg">
+        </div>
+        <div class="capital">
+          <div class="flight">
+            <img src="/assets/images/plane.svg" width="12" height="12"
+                 alt="">
+            <p class="time">1 {% t map.h %} 30 {% t map.min %}</p>
+          </div>
+          <div class="capital__name">{% t map.warsaw %}</div>
+        </div>
+        <div class="arrow-left">
+          <img src="/assets/images/arrow-left.svg">
+        </div>
+        <div class="capital">
+          <div class="flight" style="height: 16px;">
+            <img src="/assets/images/plane.svg" width="12" height="12">
+            <p class="time"></p>
+          </div>
+          <div class="capital__name">{% t map.kyiv %}</div>
+        </div>
+
+      </div>
+      <div class="wound__numbers">
+        <div class="war">
+          <div class="digit">
+            <div class="number">580</div>
+            <div class="plus">+</div>
+          </div>
+          <div class="highlight">
+            <div class="text">{% t map.days-of-war %}</div>
+          </div>
+        </div>
+        <div class="damage">
+          <div class="digit">
+            <div class="number">$500b</div>
+            <div class="plus"></div>
+          </div>
+          <div class="highlight">
+            <div class="text">{% t map.damage-done %}</div>
+          </div>
+        </div>
+        <div class="refugees">
+          <div class="digit">
+            <div class="number">10m</div>
+            <div class="plus"></div>
+          </div>
+          <div class="highlight">
+            <div class="text">{% t map.refugees %}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ua__map ">
+        <img src="/assets/images/ua_map.svg" alt="">
+      </div>
+    </section>
+
+    <section class="photos-section">
+      <div class="photos">
+        <img src="/assets/images/photos/static-pic (1).jpeg" alt="">
+        <img src="/assets/images/photos/static-pic (2).jpeg" alt="">
+        <img src="/assets/images/photos/static-pic (3).jpeg" alt="">
+      </div>
+      <div class="photos__donate container-header">
+        <div class="text">
+          {% t photos.text %}
+        </div>
+        <a href="https://donate.stripe.com/6oE8wW5uJ4U62nC7st" class="donate-btn btn-300" target="_blank">
+          {% t photos.donate %}
+        </a>
+      </div>
+    </section>
+
+    <section class="heroes-section">
+      <div class="heroes__bg">
+        <div class="heroes__title">
+          <h2>{% t heroes.title %}</h2>
+        </div>
+        <div class="gallery">
+          <img src="/assets/images/heroes_photos.png" class="heroes1" alt="">
+          <img src="/assets/images/heroes_photos_2.png" class="heroes2" alt="">
+        </div>
+        <p class="quote">{% t heroes.subtitle %}</p>
+        <div class="heroes__donate">
+          <a href="https://donate.stripe.com/6oE8wW5uJ4U62nC7st" class="donate-btn btn-300" target="_blank">
+            {% t heroes.donate %}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="equipment-section">
+      <div class="equipment__title container-header">
+        <h2>{% t equipment.title %}</h2>
+      </div>
+      <div class="equipment__content">
+        <div class="equipment">
+          <div class="equipment-row equipment-row-{{ site.lang }}">
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.ts %}</p>
+              <p class="equipment-price">150 EUR / {% t equipment.pair %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.cs %}</p>
+              <p class="equipment-price">up to 80 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.bmg %}</p>
+              <p class="equipment-price">100–200 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.tg %}</p>
+              <p class="equipment-price">30 EUR / {% t equipment.pair %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.mu %}</p>
+              <p class="equipment-price">100 EUR / {% t equipment.set %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.mr %}</p>
+              <p class="equipment-price">10—35 EUR / {% t equipment.piece %}</p>
+            </div>
+          </div>
+
+          <div class="equipment-row equipment-row-{{ site.lang }}">
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.mh %}</p>
+              <p class="equipment-price">10 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.tss %}</p>
+              <p class="equipment-price">80—100 EUR / {% t equipment.pair %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.amh %}</p>
+              <p class="equipment-price">50 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.tb %}</p>
+              <p class="equipment-price">35 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.tbp %}</p>
+              <p class="equipment-price">35–50 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.tssk %}</p>
+              <p class="equipment-price">5 EUR / {% t equipment.pair %}</p>
+            </div>
+          </div>
+
+          <div class="equipment-row equipment-row-{{ site.lang }}">
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.tv %}</p>
+              <p class="equipment-price">100 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.tp %}</p>
+              <p class="equipment-price">10—50 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.fak %}</p>
+              <p class="equipment-price">10–50 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.b %}</p>
+              <p class="equipment-price">5 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.t %}</p>
+              <p class="equipment-price">30 EUR / {% t equipment.piece %}</p>
+            </div>
+            <div class="equipment-item">
+              <p class="equipment-name">{% t equipment.mnep %}</p>
+              <p class="equipment-price">15—30 EUR / {% t equipment.set %}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="equipment__donate container-header">
+        <div class="equipment__donate__content">
+          <p class="text">
+            {% t equipment.text %}
+          </p>
+          <a href="https://donate.stripe.com/6oE8wW5uJ4U62nC7st" class="donate-btn btn-300" target="_blank">
+            {% t equipment.donate %}
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="events-section" id="events">
+      <div class="container-header">
+        <div class="events__title">
+          <h2>{% t events.title %}</h2>
+        </div>
+        <div class="events__steps">
+          <div class="step-item">
+            <div class="number-arrow">
+              <span>01</span>
+              <img src="/assets/images/arrow-right.svg" alt="">
+            </div>
+            <div class="step-text">
+              {% t events.first-step %}
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="number-arrow">
+              <span>02</span>
+              <img src="/assets/images/arrow-right.svg" alt="">
+            </div>
+            <div class="step-text">
+              {% t events.second-step %}
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="number-arrow">
+              <span>03</span>
+            </div>
+            <div class="step-text">
+              {% t events.third-step %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% include swiper.html %}
+    </section>
+
+    <section class="donation-section container-header">
+      <div class="donation__bg">
+        <div class="donation__title">
+          <p>
+            {% t donation.text %}
+          </p>
+          <img src="/assets/images/uploads/2022/08/stripe.svg" class="fondy">
+        </div>
+        <div class="donation__btns">
+          <a href="https://donate.stripe.com/6oE8wW5uJ4U62nC7st" target="_blank" style="" class="donate-btn btn-260">
+            {% t donation.card %}
+          </a>
+          <button data-modal-target="#modal" style="" class="donate-btn-white btn-260">
+            {% t donation.transfer %}
+          </button>
+          <a href="https://www.instagram.com/events_for_ukraine/" target="_blank" class="donate-btn-white btn-260 btn-260-{{ site.lang }}">
+            <img src="/assets/images/insta_black.svg" class="default">
+            <img src="/assets/images/insta.svg" class="hover">
+            {% t donation.events %}
+          </a>
+        </div>
+        <div class="fondy_mobile">
+          <img src="/assets/images/uploads/2022/08/stripe.svg">
+        </div>
+      </div>
+    </section>
+
+    <section class="founders-section container-header" id="founders">
+      <div class="founders">
+        <div class="founders-card requisities">
+          <div class="requisities__content">
+            <div class="flag">
+              <img src="/assets/images/flag.svg" alt="">
+            </div>
+            <div class="text">
+              <p class="title">NGO Fundacja<br> Independent UA</p>
+              <p class="data">
+                KRS Number: 0000967002<br>
+                REGON: 521797133<br>
+                NIP: 6751763836<br>
+                ul. Jana Kasprowicza 8A/1, 31-523, Kraków, Poland
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="https://instagram.com/miss_chrisss?igshid=YmMyMTA2M2Y=" target="_blank"
+           class="founders-card founder person1">
+          <div class="info">
+            <div class="info__content">
+              <div class="name">
+                <span>Khrystyna Ivanytska</span>
+                <img src="/assets/images/insta.svg" alt="">
+              </div>
+              <p>{% t founders.founder1 %}</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://instagram.com/ihor.kryvoruchko?igshid=YmMyMTA2M2Y=" target="_blank"
+           class="founders-card founder person2">
+          <div class="info">
+            <div class="info__content" id="info__content__extra">
+              <div class="name">
+                <span>Ihor Kryvoruchko</span>
+                <img src="/assets/images/insta.svg" alt="">
+              </div>
+              <p>{% t founders.founder2 %}</p>
+            </div>
+          </div>
+        </a>
+        <div class="founders_mobile">
+          <a class="founder_m" href="https://instagram.com/miss_chrisss?igshid=YmMyMTA2M2Y=" target="_blank">
+            <img src="/assets/images/photos/khrystyna3.jpeg" alt="">
+            <p class="name">Khrystyna Ivanytska <img src="/assets/images/insta.svg" width="20" height="20">
+            </p>
+            <p class="about">{% t founders.founder1 %}</p>
+          </a>
+          <a class="founder_m" href="https://instagram.com/ihor.kryvoruchko?igshid=YmMyMTA2M2Y=" target="_blank">
+            <img src="/assets/images/photos/ihor3.jpeg" alt="">
+            <p class="name">Ihor Kryvoruchko <img src="/assets/images/insta.svg" width="20" height="20">
+            </p>
+            <p class="about">{% t founders.founder2 %}</p>
+          </a>
+        </div>
+      </div>
+      <div class="contacts">
+        <p class="contact__us">Contact us</p>
+        <p class="phone__number">+48 733 720 907</p>
+        <p class="email"><a href="mailto:independentua24@gmail.com">independentua24@gmail.com</a></p>
+      </div>
+    </section>
+
+    <section class="quote-section container-header">
+      <div class="quote__title">
+        <h2>{% t quote.title %}</h2>
+      </div>
+      <div class="quote__text">
+        <p class="quote">
+          {% t quote.text %}
+        </p>
+      </div>
+    </section>
+  </div>
+  {% include footer.html %}
+</div>
+
+<div class="modal" id="modal">
+  <div class="modal-top">
+    <button data-close-button class="close-button"></button>
+  </div>
+  <div class="modal-content">
+    <h2>{% t modal.title %}</h2>
+    <p class="text">
+      {% t modal.text %}
+    </p>
+    <p class="tip">{% t modal.recepient %}:</p>
+    <p class="req">Fundacja Independent UA</p>
+    <p class="tip">{% t modal.iban %}:</p>
+    <p class="req">PL 42 1020 4900 0000 8302 3441 0533</p>
+    <p class="tip">{% t modal.swift %}:</p>
+    <p class="req">BPKOPLPWXXX</p>
+    <p class="tip">{% t modal.desc %}:</p>
+    <p class="req">Support for Ukraine</p>
+  </div>
+</div>
+<div id="overlay"></div>
+
+<script src="/assets/js/swiper.min.js"></script>
+<script>
+new Swiper(".mySwiper", {
+    watchSlidesProgress: true,
+    //slidesPerView: 3,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+        },
+        // when window width is >= 1024px
+        1024: {
+            slidesPerView: 3,
+        },
+        // when window width is >= 1400px
+        1400: {
+            slidesPerView: 3,
+        }
+    }
+});
+
+const openModalButtons = document.querySelectorAll('[data-modal-target]')
+const closeModalButtons = document.querySelectorAll('[data-close-button]')
+const overlay = document.getElementById('overlay')
+const html = document.documentElement;
+
+openModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = document.querySelector(button.dataset.modalTarget)
+        openModal(modal)
+    })
+})
+
+overlay.addEventListener('click', () => {
+    const modals = document.querySelectorAll('.modal.active')
+    modals.forEach(modal => {
+        closeModal(modal)
+    })
+})
+
+closeModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = button.closest('.modal')
+        closeModal(modal)
+    })
+})
+
+function openModal(modal) {
+    if (modal == null) return
+    modal.classList.add('active')
+    overlay.classList.add('active')
+    html.classList.add('overflow-hidden')
+}
+
+function closeModal(modal) {
+    if (modal == null) return
+    modal.classList.remove('active')
+    overlay.classList.remove('active')
+    html.classList.remove('overflow-hidden')
+}
+
+</script>
+
+</body>
+</html>

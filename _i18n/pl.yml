@@ -1,0 +1,108 @@
+menu:
+  how-to-help: Jak pomóc
+  about: O nas
+header:
+  line1: Nie musisz być na polu walki aby
+  line2: Opatrzyć ranę, uratować życie, pomóc Ukrainie
+  text: Fundacja Independent UA jest non-profit organizacją założoną w Polsce. Naszym celem jest wsparcie ludzi, którzy bronią Ukrainę przed inwazją rosyjską. W odróżnieniu od fundacji działających na globalną skale, skupiamy się na dostarczeniu pomocy bezpośrednio na linię frontu.
+  legal: Informacje prawne & kontakt
+  donate: Wesprzyj Ukrainę
+map:
+  text: Krwawiąca rana <br/> w sercu Europy
+  paris: Paryż
+  london: Londyn
+  berlin: Berlin
+  warsaw: Warszawa
+  kyiv: Kijów
+  h: godz
+  min: min
+  days-of-war: dni wojny
+  damage-done: uszkodzenia
+  refugees: uchodźców
+photos:
+  text: To nie są statystyki, tylko życia ludzkie&nbsp;– razem możemy pomóc Ukrainie przezwyciężyć tragedię
+  donate: Wesprzyj Ukrainę
+heroes:
+  title: Bohaterowie Ukrainy oddają życie za&nbsp;ojczyznę
+  subtitle: Dostarczamy sprzęt ochronny i&nbsp;medyczny, <br/> który ratuje życie
+  donate: Wesprzyj Ukrainę
+equipment:
+  title: Każda pomoc ma&nbsp;znaczenie, nawet drobny gest bardzo&nbsp;się liczy
+  pair: para
+  piece: sztuka
+  set: zestaw
+  ts: Buty taktyczne
+  cs: Koszule wojskowe
+  bmg: Okulary balistyczne
+  tg: Rękawice taktyczne
+  mu: Mundury wojskowe
+  mr: Płaszcze przeciwdeszczowe
+  mh: Czapki wojskowe
+  tss: Letnie buty taktyczne
+  amh: Nauszniki wojskowe
+  tb: Opaski taktyczne
+  tbp: Plecaki wojskowe
+  tssk: Letnie skarpetki taktyczne
+  tv: Kamizelki taktyczne
+  tp: Rozładunek taktyczny
+  fak: Zestawy PP
+  b: Kominiarki UBACS
+  t: Opaski uciskowe (CAT, SOFT)
+  mnep: Nakolanniki i nałokietniki
+  text: Niezbędny sprzęt dostępny w&nbsp;ograniczonych ilościach, a&nbsp;to&nbsp;tylko niewielka część tego, co&nbsp;jest pilnie potrzebne
+  donate: Wesprzyj Ukrainę
+events:
+  title: Dostarczamy zakupiony sprzęt szybko i&nbsp;bezpośrednio
+  first-step: Listę potrzeb otrzymujemy od&nbsp;osób z&nbsp;linii frontu
+  second-step: Niezbędny sprzęt kupujemy na&nbsp;rynku&nbsp;UE
+  third-step: Paczki wysyłamy od&nbsp;razu na&nbsp;pole walki
+date:
+  jan: stycznia
+  feb: lutego
+  mar: marca
+  apr: kwietnia
+  may: maja
+  jun: czerwca
+  jul: lipca
+  aug: sierpnia
+  sep: września
+  oct: pazdźernika
+  nov: listopada
+  dec: grudnia
+slider:
+  i-011023: Wyposażenie dla specjalnego batalionu na froncie wschodnim
+  i-150923: Uniform jesenny dla 24. Brygady Lwowskiej na kierunku donieckim
+  i-050723: Noktowizor dla brygady desantowo-szturmowej, Bachmut
+  i-010723: Letni komplet mundurowy, pułk obrony przeciwlotniczej, Bachmut
+  i-250623: Zestaw wyposażenia dla żołnierza walczącego pod Bachmutem
+  i-200623: Odzież i obuwie dla medycznego batalionu wojskowego, Bachmut
+  i-010623: Pełny strój letni dla żołnierza walczącego w&nbsp;rejonie Bachmutu
+  i-150523: Wyposażenie dla żołnierzy batalionu „Svoboda” w&nbsp;kierunku Doniecka
+  i-050423: Wyposażenie żołnierza 401 batalionu walczącego pod Bachmutem
+  i-200223: Wyposażenie dla żołnierza ZSU wyjeżdżającego na kierunek Bachmut
+  i-010223: Mundury dla jednostki rozpoznawczej na kierunku Bachmut
+  i-200123: Dieslowski agregat prądotwórczy dla&nbsp;Zbrojnych Sił Ukrainy
+donation:
+  text: Zebrane środki z&nbsp;darowizn oraz wydarzeń charytatywnych umożliwiają nieprzerwany łańcuch dostaw i&nbsp;ciągłą pomoc
+  card: Wpłać kartą
+  transfer: Zrób przelew
+  events: Weź udział w wydarzeniach
+founders:
+  founder1: Założycielka, Lwów
+  founder2: Założyciel, Biała Cerkiew
+quote:
+  title: Ludzie z&nbsp;Independent&nbsp;UA w&nbsp;sercu
+  text: “Wojna pojawiła&nbsp;się nagle w&nbsp;naszych domach. Podczas gdy nasi przyjaciele walczą na&nbsp;froncie za&nbsp;europejskie wartości, my&nbsp;również czujemy odpowiedzialność i&nbsp;chcemy pomóc zatrzymać wojnę. Zwycięstwo nadchodzi, a&nbsp;Twoja pomoc sprawia, że&nbsp;jesteśmy coraz bliżej osiągniecia celu.”
+footer:
+  privacy: Polityka prywatności
+  cookie: Polityka cookies
+  refund: Polityka zwrotów
+  aml: Polityka AML
+  events: Events for Ukraine
+modal:
+  title: Twoja pomóc jest bezcenna
+  text: Żeby zrobić przelew, skopiuj numer bankowy który znajdziesz poniżej i użyj online bankingu lub aplikacji mobilnej
+  recepient: Odbiorca
+  iban: IBAN / numer konta
+  swift: Numer SWIFT
+  desc: Title (optional)

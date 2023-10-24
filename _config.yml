@@ -1,0 +1,7 @@
+url: "https://independentua.com"
+baseurl: ""
+title: "Independent UA"
+languages: ["en", "pl"]
+exclude_from_localizations: ["assets"]
+plugins:
+  - jekyll-multiple-languages-plugin

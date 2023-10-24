@@ -1,0 +1,108 @@
+menu:
+  how-to-help: How to help
+  about: About us
+header:
+  line1: You don't have to be on the battlefield to
+  line2: Dress a wound, save a life, help Ukraine
+  text: A Poland-based non-profit organization that helps people who defend Ukraine against russian invasion. Unlike NGOs working on a global scale, we aim to deliver the most necessary equipment directly to the front lines.
+  legal: Legal Info & Contact Details
+  donate: Donate now
+map:
+  text: Bleeding wound <br/> in the heart <br/> of Europe
+  paris: Paris
+  london: London
+  berlin: Berlin
+  warsaw: Warsaw
+  kyiv: Kyiv
+  h: h
+  min: min
+  days-of-war: days of war
+  damage-done: damage done
+  refugees: refugees
+photos:
+  text: It's&nbsp;not just about statistics, it's&nbsp;about people's lives&nbsp;– together we can help Ukraine overcome this&nbsp;tragedy
+  donate: Donate to dress a wound
+heroes:
+  title: Our heroes risk their lives to&nbsp;defend freedom
+  subtitle: We aim to save as many lives as possible <br/> by&nbsp;supplying first aid kits
+  donate: Donate to save lives
+equipment:
+  title: Small things matter the&nbsp;most on&nbsp;the&nbsp;frontlines
+  pair: pair
+  piece: piece
+  set: set
+  ts: Tactical shoes
+  cs: Combat shirts
+  bmg: Ballistic military glasses
+  tg: Tactical gloves
+  mu: Military uniforms
+  mr: Military raincoats
+  mh: Military hats
+  tss: Tactical summer shoes
+  amh: Active military headphones
+  tb: Tactical belts
+  tbp: Tactical backpacks
+  tssk: Tactical summer socks
+  tv: Tactical vests
+  tp: Tactical panels
+  fak: First aid kits
+  b: Balaclavas
+  t: Tourniquets (CAT, SOFT)
+  mnep: Military knee & elbow pads
+  text: Essential equipment is in limited supply, and this is just a small part of what is urgently needed
+  donate: Donate to help Ukraine
+events:
+  title: Your help will&nbsp;be delivered urgently and&nbsp;directly
+  first-step: We collect direct requests from people on&nbsp;the&nbsp;front line
+  second-step: We purchase the&nbsp;necessary supplies from&nbsp;EU
+  third-step: We arrange delivery directly to where there&nbsp;is an&nbsp;urgent need
+date:
+  jan: Jan
+  feb: Feb
+  mar: Mar
+  apr: Apr
+  may: May
+  jun: Jun
+  jul: Jul
+  aug: Aug
+  sep: Sep
+  oct: Oct
+  nov: Nov
+  dec: Dec
+slider:
+  i-011023: Insulated equipment for a&nbsp;special battalion on the Eastern front
+  i-150923: Autumn uniforms for the 24th Lviv Brigade in the Donetsk direction
+  i-050723: Night vision device for airborne assault brigade, Bakhmut
+  i-010723: Uniform set, air defense anti-aircraft missile regiment, Bakhmut
+  i-250623: Another set of equipment for a soldier fighting near Bakhmut
+  i-200623: Clothing and footwear for the medical military battalion, Bakhmut
+  i-010623: Full summer outfit for a soldier fighting in the Bakhmut area
+  i-150523: Equipment for ‘Svoboda’ battalion fighters in Donetsk direction
+  i-050423: Equipment for a soldier of the 401st battalion fighting near Bakhmut
+  i-200223: Equipment for a soldier of the AFU, leaving for the Bakhmut direction
+  i-010223: Equipment for the reconnaissance unit in the Bakhmut direction
+  i-200123: Diesel power generator for the Armed Forces of Ukraine
+donation:
+  text: To keep the&nbsp;supplies going we&nbsp;collect funds via&nbsp;direct donations and&nbsp;charity events
+  card: Donate by card
+  transfer: Make a transfer
+  events: Attend our events
+founders:
+  founder1: Founder, Lviv
+  founder2: Founder, Bila Tserkva
+quote:
+  title: People with Independent UA in their hearts
+  text: “The war came to&nbsp;our&nbsp;home. While our&nbsp;friends are&nbsp;fighting for&nbsp;the&nbsp;European values on&nbsp;the&nbsp;front line, we&nbsp;feel a&nbsp;personal responsibility to&nbsp;help stop this war. The&nbsp;victory is&nbsp;upon&nbsp;us. And&nbsp;your help can bring&nbsp;it even closer.”
+footer:
+  privacy: Privacy Policy
+  cookie: Cookie Policy
+  refund: Refund Policy
+  aml: AML Policy
+  events: Events for Ukraine
+modal:
+  title: We appreciate your support
+  text: To make a wire transfer, please copy the bank details below and use your online banking or mobile app.
+  recepient: Recepient Name
+  iban: IBAN / account number
+  swift: SWIFT number
+  desc: Title (optional)
