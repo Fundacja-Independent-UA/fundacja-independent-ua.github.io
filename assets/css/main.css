@@ -137,7 +137,8 @@ h2 {
   z-index: 9999;
 }
 
-.monobank a, p {
+.monobank a,
+.monobank p {
   color: #fff;
   text-align: left;
   display: block;
