@@ -137,7 +137,7 @@ h2 {
   z-index: 9999;
 }
 
-.monobank a {
+.monobank a, p {
   color: #fff;
   text-align: center;
   display: block;
@@ -569,7 +569,7 @@ header .logo a, header .logo img {
 }
 
 @media (max-width: 427px) {
-  .monobank a {
+  .monobank a, p {
     font-size: 16px;
   }
   .damage {
